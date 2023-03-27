@@ -1,6 +1,9 @@
 import "../styles/login.css";
 import { useNavigate } from "react-router-dom";
 
+//1. Login хийхэд input утгуудыг авч console.log() хийх 
+//2. Login-р сонгосон хэрэглэгчийн (appplicant/employer) нүүр хуудас руу үсрэх 
+
 export default function Login({setUserType}) {
     const navigate = useNavigate();
 
@@ -15,6 +18,7 @@ export default function Login({setUserType}) {
         navigate("/applicant");
     }
 
+    //get input values of username & userpass
     const employerLoginHandler = () =>{
         console.log("employerLoginHandler");
         navigate("/employer");
