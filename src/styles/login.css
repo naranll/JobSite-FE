@@ -1,0 +1,53 @@
+.login-page{
+    width: 100vw;
+    max-width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-form fieldset{
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#username,
+#userpass{
+    height: 60px;
+    margin-bottom: 25px;
+    border: 1px solid #808080;
+    background-color: #F7F6F7;
+}
+
+.form-buttons{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.form-btn{
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.login-btn{
+    background: var(--primary);
+    border: none;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.login-btn:nth-child(2){
+    background-color: var(--secondry);
+}
+
+.register-btn{
+    background: #fff; ;
+    border: 1px solid #192D50;
+    color: #192D50;
+}
