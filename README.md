@@ -1,3 +1,3 @@
 JobSite ERD
 
-![jobsite_erd] (/Users/morning/Desktop/erd.png/)
+![jobsite_erd] (https://imgur.com/a/eDhna8Y)
